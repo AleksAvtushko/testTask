@@ -9,3 +9,5 @@ const fizzBuzz = (n: number) => {
 };
 
 console.log(fizzBuzz(61));
+console.log(fizzBuzz(6));
+console.log(fizzBuzz(5));
