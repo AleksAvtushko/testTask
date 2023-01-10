@@ -1,6 +1,11 @@
-/*const x = 1;
-const b = 2;
+const fizzBuzz = (n: number) => {
+    if (n % 3 === 0) {
+        return "fizz";
+    } else if (n % 5 === 0) {
+        return "buzz";
+    } else {
+        return "fizzBuzz";
+    }
+};
 
-const e = x + b;
-
-console.log(e);*/
+console.log(fizzBuzz(61));
